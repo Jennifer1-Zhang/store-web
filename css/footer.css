@@ -1,0 +1,121 @@
+/*sitesite_info*/
+footer{
+	width: 100%;
+	margin-top: 10px;
+}
+footer .site_info{
+	width: 1170px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-around;
+	border-top: 3px double #eee;
+	padding-top: 15px;
+}
+footer .site_info dt,footer .site_info dd{
+	height: 30px;
+	line-height: 30px;
+}
+footer .site_info dt a{
+	color: #666;
+	font-size: 16px;
+	font-weight: 700px;
+}
+footer .site_info dd a{
+	color: #777;
+	font-size: 14px;
+}
+footer .site_info dd:hover a{
+	color: #2bb8aa;
+	text-decoration: underline;
+}
+.contact_img #img{
+	width: 49px;
+	height: 45px;
+	background: url('../img/footer-bg.png') no-repeat 0 -81px;
+}
+.contact_img p{
+	font-size: 14px;
+	color: #666;
+	margin-top: 10px;
+}
+.contact_img span:nth-child(3){
+	font-size: 18px;
+	font-weight: 700;
+	color: #666;
+	display: inline-block;
+	margin-top: 10px;
+}
+.contact_img span:last-child{
+	font-size: 12px;
+	color: #999;
+}
+.contact .contact_text{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+}
+.contact .contact_text span{
+	font-size: 12px;
+	color: #666;
+}
+.contact .contact_text a{
+	margin-top: 5px;
+	font-size: 12px;
+	color: #2bb8aa;
+}
+.contact .contact_text a:hover{
+	text-decoration: underline;
+}
+footer .copyright{
+	width: 100%;
+	border-top: 2px solid #eee;
+	padding-top: 30px;
+	text-align: center;
+}
+footer .copyright p{
+	margin-bottom: 10px;
+	color: #777;
+	font-size: 12px;
+}
+footer .copyright p:first-child{
+	margin-bottom: 30px;
+}
+footer .copyright p img{
+	width: 20px;
+	height: 20px;
+}
+footer .copyright p a:hover{
+	text-decoration: underline;
+}
+.certificate{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	margin:30px auto;
+	font-size: 0;
+}
+.certificate a{
+	display:block;
+	width: 109px;
+	height: 38px;
+	background: url('http://s0.meituan.net/bs/file/?f=fewww:www/css/si/footer.png@b8f4393') no-repeat;
+	margin:0 3px;	
+}
+.certificate a:first-child{
+	background-position: 0 -167px;
+}
+.certificate a:nth-child(2){
+	background-position: 0 -127px;
+}
+.certificate a:last-child{
+	background-position: 0 -40px;
+}
+footer .copyright>a{
+	display: block;
+	width: 25%;
+	margin:0 auto;
+	color: #666;
+	font-size: 12px;
+	text-align: right;
+	padding-bottom: 30px;
+}
